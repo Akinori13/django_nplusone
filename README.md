@@ -25,3 +25,14 @@ poetry shell
 ```bash
 poetry add <package-name>
 ```
+
+### スーパーユーザー作成
+```bash
+python createsupseruser
+```
+
+| 項目           | 内容             |
+| -------------- | ---------------- |
+| ユーザー名     | admin            |
+| メールアドレス | admin@sample.com |
+| パスワード     | password         |
